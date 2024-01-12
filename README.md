@@ -1,4 +1,4 @@
-# BiEL
+# MESS
 
 This repo provides the code for our paper submitted to IJCAI-2024: "MESS: Coarse-grained Modular Two-way Dialogue Entity Linking Framework"
 
