@@ -1,0 +1,12 @@
+scikit-learn
+numpy
+spacy
+torch==1.7.1
+transformers>=4.0
+unidecode
+requests
+kilt
+fairseq
+transformers
+bs4
+marisa_trie
