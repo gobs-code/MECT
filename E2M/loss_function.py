@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# @FileName: loss_function.py
-# @Software: PyCharm
 
 import torch.nn as nn
 import torch
@@ -9,9 +7,6 @@ import torch
 class MultiLabelLoss(nn.Module):
 
     def __init__(self, type_loss, reduction='sum'):
-        # type loss : log_sum(marginal),
-        # sum_log (include all golds in normalization term),
-        # sum_log_nce (include only one gold in normalization term each time)
         super().__init__()
         self.type_loss = type_loss
         assert self.type_loss in ['log_sum',

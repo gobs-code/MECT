@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# @FileName: tc_module.py
-# @Software: PyCharm
 
 
 import torch

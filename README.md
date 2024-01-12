@@ -1,6 +1,6 @@
 # BiEL
 
-This repo provides the code for our paper submitted to NeurIPS 2023: "BiEL: Bidirectional Entity Linking Based on Contrastive and Distillation"
+This repo provides the code for our paper submitted to IJCAI-2024: "MESS: Coarse-grained Modular Two-way Dialogue Entity Linking Framework"
 
 ## Setup
 

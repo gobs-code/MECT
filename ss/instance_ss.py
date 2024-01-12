@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-# @FileName: instance_tc.py
-# @Software: PyCharm
+
 
 import json
 import os

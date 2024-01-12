@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-# @FileName: e2m_data.py
-# @Software: PyCharm
-
 
 import torch
 import json

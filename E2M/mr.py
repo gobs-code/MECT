@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# @FileName: instance_matcher.py
-# @Software: PyCharm
 
 import argparse
 import os

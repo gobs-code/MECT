@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-# @FileName: trie.py
-# @Software: PyCharm
+
 
 
 from typing import Dict, List

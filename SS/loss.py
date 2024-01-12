@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# @FileName: loss.py
-# @Software: PyCharm
 
 
 import torch.nn.functional as F

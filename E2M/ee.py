@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# @FileName: instance_extractor.py
-# @Software: PyCharm
 
 
 import torch

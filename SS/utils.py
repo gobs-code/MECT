@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# @FileName: utils.py
-# @Software: PyCharm
 
 import json
 import pathlib

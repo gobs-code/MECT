@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-# @FileName: tc_data.py
-# @Software: PyCharm
-
 
 import torch
 from torch.utils.data import Dataset

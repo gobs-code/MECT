@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# @FileName: preprocess.py
-# @Software: PyCharm
 
 import argparse
 import json

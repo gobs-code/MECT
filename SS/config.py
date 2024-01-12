@@ -17,14 +17,14 @@ class Config(object):
             os.makedirs(output_dir, exist_ok=True)
 
         self.train_path = [
-            './data/bq_corpus/train.tsv',
-            './data/lcqmc/train.tsv',
-            './data/paws-x/train.tsv',
+            './data/train.tsv',
+            './data/train.tsv',
+            './data/train.tsv',
         ]  # train dataset
         self.test_path = [
-            './data/bq_corpus/dev.tsv',
-            './data/lcqmc/dev.tsv',
-            './data/paws-x/dev.tsv'
+            './data/dev.tsv',
+            './datadev.tsv',
+            './data/dev.tsv'
         ]  # test dataset
         self.output_dir = output_dir
 
@@ -33,7 +33,7 @@ class Config(object):
         self.batch_size = 32  # mini-batch size
         self.max_length = 80  # The length of each sentence processed
         self.learning_rate = 5e-5  # learning rate
-        self.pretrain_dir = '/home/gobs/text_sim/output/SBert-BiEL/checkpoint'
+        self.pretrain_dir = './checkpoint'
 
         self.log_iter = 100
         self.warmup = True

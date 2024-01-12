@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-# @FileName: e2m_module.py
-# @Software: PyCharm
-
 
 import numpy as np
 import torch
@@ -28,9 +25,7 @@ class BiEncoder(nn.Module):
         candidates_embeds = None
         mention_embeds = None
         entity_embeds = None
-        # candidate_token_ids and mention_token_ids not None during training
-        # mention_token_ids not None for embedding mentions during inference
-        # entity_token_ids not None for embedding entities during inference
+
         if candidate_token_ids is not None:
             B, C, L = candidate_token_ids.size()
             candidate_token_ids = candidate_token_ids.view(-1, L)

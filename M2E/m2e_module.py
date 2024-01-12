@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# @FileName: m2e_module.py
-# @Software: PyCharm
 
 import torch
 import logging
